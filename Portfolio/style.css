@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 2em;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 span{
+    color: green;
+}
+
+#about img{
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.flex-container {
+    display: flex;
+    width: 45%; 
+    margin-left: 7%;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    margin: 0.5em 0;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+.flex-item {
+    background-color: lightgray; 
+    border-radius: 5%;
+    padding: 10px; 
+    margin: 10px; 
+    text-align: justify; 
+    flex: 1;
+    
+}
+
+
+
+.project1 , .project2 {
+    border: 1px solid lightgray;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.project1 span {
+    color: red;
+}
+
+.project2 span {
+    color: #3bc4a1;
+}
+
+.project1 img, .project2 img {
+    max-width: 75%;
+    height: auto;
+}
+
+.project1 p, .project2 p{
+    max-width: 75%;
+    text-indent: 2em;
+}
+
+.project1 h3, .project2 h3{
+    size: 2rem;
+}
+a {
+    text-decoration: none;
+}
+
+input[type="button"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:150px;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 12.7px;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    transition: all 0.5s ease 0s;
+}
+
+#contact p {
+    margin: 0.5rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: black;
+    color: white;
+}
